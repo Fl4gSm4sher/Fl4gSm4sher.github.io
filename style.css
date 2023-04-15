@@ -29,4 +29,76 @@ nav {
 
 nav ul {
 	display: flex;
+	flex-direction: row;
 }
+
+nav li {
+	margin-left: 1rem;
+}
+
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 4rem;
+}
+
+.hero {
+	padding: 6rem 2rem;
+	margin-bottom: 4rem;
+}
+
+.hero h1 {
+	font-size: 5rem;
+	margin-bottom: 2rem;
+}
+
+.hero h2 {
+	font-size: 3rem;
+	margin-bottom: 3rem;
+}
+
+.cta {
+	font-size: 1.5rem;
+	padding: 1.5rem 3rem;
+	border-radius: 3rem;
+	margin-top: 2rem;
+}
+
+.about {
+	margin-bottom: 4rem;
+	display: flex;
+	align-items: center;
+}
+
+.about p {
+	margin-left: 2rem;
+	font-size: 1.2rem;
+}
+
+.events {
+	margin-bottom: 4rem;
+}
+
+.events li {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.events h3 {
+	font-size: 1.8rem;
+	margin-bottom: 1rem;
+}
+
+.events time {
+	display: inline-block;
+	font-size: 1rem;
+	color: #aaa;
+	margin-left: 2rem;
+	margin-bottom: 0;
+}
+
+footer {
+	display: flex;
+	align-items: center;
+	justify-content:
